@@ -109,13 +109,12 @@ public class CardBoxTest {
         try {
             cardBox.save();
             cardBox.load();
-            /**
             List<PersonCard> listFromFile = cardBox.getCurrentList();
             assertEquals("Reise", listFromFile.getFirst().getFirstName());
             assertEquals("Kato", listFromFile.getFirst().getLastName());
             assertEquals("Rini", listFromFile.get(1).getFirstName());
             assertEquals("Reh", listFromFile.get(1).getLastName());
-            assertEquals(2, listFromFile.size());*/
+            assertEquals(2, listFromFile.size());
         } catch (CardBoxStorageException e) {
             fail("Fehler beim Speichern oder Laden: " + e.getMessage());
         }
