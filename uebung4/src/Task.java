@@ -1,5 +1,10 @@
 import java.io.Serializable;
 
+/**
+ * @author Reise Thomas Kato
+ * @created 09.05.2024
+ * @project uebung4
+ */
 public class Task implements Serializable {
     private String task;
     private int taskId;
