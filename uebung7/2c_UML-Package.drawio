@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2024-06-10T14:58:15.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="bGlQYfY1J1qbHaKiYSk-" version="24.5.2" type="device">
+  <diagram name="Seite-1" id="smU-isI235232P8SCrlf">
+    <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-1" value="&lt;p style=&quot;line-height: 120%; margin-top: 0px;&quot;&gt;UI&lt;/p&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="340" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-2" value="«interface»&lt;br&gt;&lt;b&gt;Consumer&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-3" value="AL" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="570" y="90" width="420" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-4" value="SkillConsumer" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-5" value="CompanyConsumer" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-6" value="CompanyReport" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="830" y="290" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-7" value="SkillReport" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="830" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-8" value="CompanyReportPublisher" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="290" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-9" value="SkillReportPublisher" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-10" value="Report" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="830" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-11" value="Publisher" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=340;exitDy=152;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=152;entryPerimeter=0;" edge="1" parent="1" source="GoeDhuv0hRc-z9z0d9Nz-1" target="GoeDhuv0hRc-z9z0d9Nz-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="500" as="sourcePoint" />
+            <mxPoint x="610" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-13" value="&amp;lt;&amp;lt;import&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GoeDhuv0hRc-z9z0d9Nz-14" value="Main" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="725" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
