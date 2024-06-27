@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2024-06-26T15:28:32.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="v49G_OaRaV9xVUPdUaWc" version="24.6.3" type="device">
+  <diagram name="Seite-1" id="uoh9jzrujF27l4_Ufhxv">
+    <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-2" value="i: IFRS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="620" y="78" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-3" value="p: Policy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-4" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249.5" y="100" as="sourcePoint" />
+            <mxPoint x="620" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-5" value="new()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="78" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-7" value="g: GlobalConfig" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="365" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="8xfW-6ejKExN_eUEMc9z-3" target="8xfW-6ejKExN_eUEMc9z-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="500" as="sourcePoint" />
+            <mxPoint x="650" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-10" value="setAlgorithm(i)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="118" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-11" value="c: ReiseAnbieterController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="140" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="8xfW-6ejKExN_eUEMc9z-7" target="8xfW-6ejKExN_eUEMc9z-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="500" as="sourcePoint" />
+            <mxPoint x="610" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-16" value="verifyBooking(b: Buchung)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="168" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-17" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="8xfW-6ejKExN_eUEMc9z-2" target="8xfW-6ejKExN_eUEMc9z-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="500" as="sourcePoint" />
+            <mxPoint x="610" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-19" value="return s: Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="461" y="206" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-20" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="8xfW-6ejKExN_eUEMc9z-7" target="8xfW-6ejKExN_eUEMc9z-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="500" as="sourcePoint" />
+            <mxPoint x="610" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xfW-6ejKExN_eUEMc9z-21" value="return s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="228" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

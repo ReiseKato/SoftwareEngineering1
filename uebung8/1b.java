@@ -1,18 +1,21 @@
-public class HotelsucheAdapter extends Hotelsuche {
-    private ReiseAnbieter reiseAnbieter;
-    public HotelsucheAdapter(ReiseAnbieter reiseAnbieter) {
-        this.reiseAnbieter = reiseAnbieter;
+public class ReiseAnbieterAdapter implements ReiseAnbieter {
+    Hotelsuche hotelsuche;
+
+    public ReiseAnbieterAdapter(Hotelsuche hotelsuche) {
+        this.hotelsuche = hotelsuche;
     }
 
-    public SuchErgebnis suchen(SuchAuftrag suchAuftrag) {
-        return transformToSuchErgebnis(reiseAnbieter.suchen(transformToQueryObject(suchAuftrag)));
+    public QueryResult runQuery(QeuryObject qeuryObject) {
+        SuchAuftrag suchAuftrag = transformToSuchAuftrag(qeuryObject);
+        SuchErgebnis suchErgebnis = hotelsuche.sucheHotel(suchAuftrag);
+        return transformToQueryResult(suchErgebnis);
     }
 
-    private QueryObject transformToQueryObject(SuchAuftrag suchAuftrag) {
-        // Transform SuchAuftrag to QueryObject
+    private SuchAuftrag transformToSuchAuftrag(QueryObject queryObject) {
+        // transform QueryObject to SuchAuftrag
     }
 
-    private SuchErgebnis transformToSuchErgebnis(QueryResult queryResult) {
-        // Transform from QueryResult to SuchErgebnis
+    private QueryResult transformToQueryResult(SuchErgebnis suchErgebnis) {
+        // transform SuchErgebnis to QueryResult
     }
 }
